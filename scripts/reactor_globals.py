@@ -16,7 +16,7 @@ DEVICE_LIST: list = ["CPU", "CUDA"]
 MODELS_PATH = models_path
 SWAPPER_MODELS_PATH = os.path.join(MODELS_PATH, "insightface")
 REACTOR_MODELS_PATH = os.path.join(MODELS_PATH, "reactor")
-FACE_MODELS_PATH = os.path.join(REACTOR_MODELS_PATH, "faces")
+FACE_MODELS_PATH = os.path.join("/home/ubuntu/user_data/Forge/models", "faces")
 
 IS_SDNEXT = False
 
